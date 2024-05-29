@@ -1,3 +1,6 @@
+# 76.44% Runtime
+# 56.09% Memory
+
 from typing import Optional
 
 class ListNode:

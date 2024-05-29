@@ -1,3 +1,6 @@
+# 90.55% Runtime
+# 97.15% Memory
+
 class Solution:
     def isValid(self, s: str) -> bool:
         left = ["(", "[", "{"]
