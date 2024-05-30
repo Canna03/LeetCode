@@ -8,4 +8,9 @@ class TreeNode:
         
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        return
+        if root == None:
+            return []
+        if root.left == None and root.right == None:
+            return [root.val]
+        return self.inorderTraversal(root.left) + [root.val] + self.inorderTraversal(root.right)
+    

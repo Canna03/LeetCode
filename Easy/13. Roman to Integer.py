@@ -1,6 +1,3 @@
-# 82.57% Runtime
-# 96.17% Memory
-
 class Solution:
     def romanToInt(self, s: str) -> int:
         symbol = ["I", "V", "X", "L", "C", "D", "M"]

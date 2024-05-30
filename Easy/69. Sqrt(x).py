@@ -1,6 +1,3 @@
-# 67.57% Runtime
-# 87.34% Memory
-
 class Solution:
     def mySqrt(self, x: int) -> int:
         

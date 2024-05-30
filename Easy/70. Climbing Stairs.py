@@ -1,6 +1,3 @@
-# 99.09% Runtime
-# 80.45% Memory
-
 class Solution:
     def climbStairs(self, n: int) -> int:
         cache = {1: 1, 2: 2}

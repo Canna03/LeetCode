@@ -1,6 +1,3 @@
-# 93.33% Runtime
-# 83.09% Memory
-
 from typing import List
 
 class Solution:

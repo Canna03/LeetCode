@@ -1,6 +1,3 @@
-# 63.35% Runtime
-# 99.12% Memory
-
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         
