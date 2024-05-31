@@ -7,4 +7,10 @@ class ListNode:
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        return
+        ahead = head
+        while ahead and ahead.next:
+            head = head.next
+            ahead = ahead.next.next
+            if head is ahead:
+                return True
+        return False
