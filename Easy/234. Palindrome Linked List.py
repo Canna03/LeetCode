@@ -15,5 +15,23 @@ class Solution:
             l1 = l1.next
             l2 = l2.next.next
         
-        reverse
+        if l2.next:
+            l2 = l1.next.next
+        
+        reverse = head
+        temp = head.next
+        while reverse != l1:
+            reverse.next = None
+            reverse = temp
+            temp = temp.next
+        
+        
+        while l1.next:
+            if l1.val != reverse.val:
+                return False
+            l1 = l1.next
+            reverse = reverse.next
+        
+        return True
+        
         
